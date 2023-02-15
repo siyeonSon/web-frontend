@@ -22,3 +22,9 @@
 
 - CSS를 이용하면 p태그의 한계를 극복할 수 있음
   - `<p style="margin-top:45px;">` : p 태그의 위쪽에 45px 만큼의 여백(margin)이 생김
+
+<br>
+
+## 속성
+- 예: `<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png" width="100%">`
+  - `<img>` 태그와 `src`, `width` 속성
