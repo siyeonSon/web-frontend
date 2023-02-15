@@ -1,3 +1,3 @@
 ## 📂docs
-- [HTML](./html.md)
-- [CSS](./css.md)
+- [HTML](./docs/html.md)
+- [CSS](./docs/css.md)
