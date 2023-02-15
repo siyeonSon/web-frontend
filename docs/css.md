@@ -14,3 +14,11 @@
 ```
 - `a { }` : 선택자(selector)
 - `color:black;` : 선언(declaration)
+
+<br>
+
+### `style` 속성 사용
+```
+<li><a href="2.html" style="color:red; text-decoration:underline;">CSS</a></li>
+```
+
