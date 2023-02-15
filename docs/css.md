@@ -13,7 +13,9 @@
 </style>
 ```
 - `a { }` : 선택자(selector)
-- `color:black;` : 선언(declaration)
+- `color:black;` : 선언(declaration) / 효과
+- `color` : 속성(property)
+- `black` : 값(value)
 
 <br>
 
