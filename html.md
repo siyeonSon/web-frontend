@@ -61,3 +61,27 @@
   <li>CSS</li>
   <li>JavaScript</li>
 </ol>
+
+<br>
+
+## 문서의 기본 구조
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+```
+
+- `<!DOCTYPE html>` : 문서가 HTML로 만들어졌음을 나타냄
+- `<html>` 태그 아래에 `<head>`, `<body>` 태그 존재
+  - `<html>` : 문서에서 다룰 언어 지정
+  - `<head>` : 문서의 메타데이터(웹페이지의 요약)
+  - `<body>` : 콘텐츠 작성
