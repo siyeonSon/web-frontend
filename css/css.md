@@ -133,3 +133,16 @@ h1 {
 - `1fr` : CSS 화면 단위
   - `1fr 1fr` : 1:1 비율
   - `2fr 1fr` : 2:1 비율
+
+  <br>
+
+### 반응형 디자인
+#### 미디어 쿼리
+- 화면의 크기가 800px 보다 크다면 div 동작 X (screen width > 800px -> display: none;)
+```css
+@media(min-width: 800px) {
+  div {
+      display: none;
+  }
+}
+```
