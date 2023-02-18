@@ -4,7 +4,7 @@
   - 예: 태그마다 디자인을 삽입하는 것이 아닌, 해당 태그에 대한 디자인을 일괄적으로 삽입할 수 있음
 
 ### `<style>` 사용
-```css
+```html
 <head>
   <style>
     a {
@@ -22,7 +22,7 @@
 <br>
 
 ### `style` 속성 사용
-```
+```html
 <li><a href="2.html" style="color:red; text-decoration:underline;">CSS</a></li>
 ```
 
@@ -30,7 +30,7 @@
 
 ### 선택자(selector)
 #### 태그 선택자 ( { })
-- `a { color: black }`
+- `a { color: black; }`
 
 #### class 선택자 (. { })
 - HTML에 class 지정
@@ -44,3 +44,40 @@
   - `<li><a href="2.html" class="saw" id="active">CSS</a></li>`
 - CSS 속성 부여
   - `#active { color: red; }`
+
+<br>
+
+### 박스 모델
+- block level element: 화면 전체를 차지하는 태그
+  - 예: `<h1>`
+- inline level element: 자기 크기만큼을 차지하는 태그
+  - 예: `<a>`
+
+- `display: inline` `display: block` `display: none`  등과 같은 CSS 속성을 통해 박스 모델 수정 가능
+
+#### 코드 양 줄이기
+```css
+/** 기존 **/
+h1 {
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+}
+a {
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+}
+
+/** 줄이기 **/
+h1, a {
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+}
+
+/** 더 줄이기**/
+h1, a {
+  border: 5px solid red;
+}
+```
