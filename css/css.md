@@ -100,4 +100,10 @@ h1 {
 
 <br>
 
-### 
+### 그리드
+- 참고
+  - 디자인을 위한 태그
+    - `<div>` : block level element
+    - `<span>`: inline level element
+
+- 
