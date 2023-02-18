@@ -81,3 +81,10 @@ h1, a {
   border: 5px solid red;
 }
 ```
+
+<br>
+
+### 여백
+- content - padding - border - margin
+
+<img src="https://static.javatpoint.com/csspages/images/margin-padding.png">
