@@ -5,14 +5,16 @@
 
 ### `<style>` 사용
 ```css
-<style>
+<head>
+  <style>
     a {
       color: black;
       text-decoration: none;
     }
-</style>
+  </style>
+</head>
 ```
-- `a { }` : 선택자(selector)
+- `a { }` : 태그 선택자(selector)
 - `color:black;` : 선언(declaration) / 효과
 - `color` : 속성(property)
 - `black` : 값(value)
@@ -24,3 +26,21 @@
 <li><a href="2.html" style="color:red; text-decoration:underline;">CSS</a></li>
 ```
 
+<br>
+
+### 선택자(selector)
+#### 태그 선택자 ( { })
+- `a { color: black }`
+
+#### class 선택자 (. { })
+- HTML에 class 지정
+  - `<li><a href="1.html" class="saw">HTML</a></li>`
+- CSS 속성 부여
+  - `.saw { color: grey; }`
+
+#### id 선택자 (# { })
+- id 값은 한번만 등장해야 함
+- HTML에 id 지정
+  - `<li><a href="2.html" class="saw" id="active">CSS</a></li>`
+- CSS 속성 부여
+  - `#active { color: red; }`
