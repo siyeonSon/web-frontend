@@ -146,3 +146,11 @@ h1 {
   }
 }
 ```
+
+<br>
+
+### style.css
+- CSS를 한 파일에서 관리
+- 기존의 `<style>` 태그 대신에 `<link>` 태그로 파일의 위치 삽입
+  - `<link rel="stylesheet" href="style.css">`
+- 장점: 코드의 재사용성을 줄이고, 코드의 양이 줄어듦
