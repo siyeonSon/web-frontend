@@ -106,4 +106,30 @@ h1 {
     - `<div>` : block level element
     - `<span>`: inline level element
 
-- 
+- grid 사용
+```html
+<head>
+  <style>
+      #grid {
+          border: 5px solid pink;
+          display: grid;
+          grid-template-columns: 150px 1fr;  /* NAVIGATION은 150px 크기를, ARTICLE은 나머지 크기를 가짐 */
+      }
+      div {
+          border: 5px solid gray;
+      }
+  </style>
+</head>
+<body>
+    <div id="grid">
+        <div>NAVIGATION</div>
+        <div>ARTICLE</div>
+    </div>
+</body>
+```
+
+![image](https://user-images.githubusercontent.com/87802191/219864751-597a8f96-5481-40ca-ab87-b71acfcedbee.png)
+
+- `1fr` : CSS 화면 단위
+  - `1fr 1fr` : 1:1 비율
+  - `2fr 1fr` : 2:1 비율
